@@ -1,4 +1,8 @@
 #!/bin/bash
+headernih(){
+echo "google dorker"
+GetToken
+}
 GetToken(){
 	goks=$( curl -s --compressed \
 	--url "https://cse.google.com/cse.js?cx=partner-pub-2698861478625135:3033704849" \
@@ -25,4 +29,4 @@ Goaks(){
 		fi
 	done
 }
-GetToken
+headernih
